@@ -27,4 +27,16 @@ A real-time Sign Language Recognition System that uses computer vision and machi
 
 
 ---
+FOR IMPLEMENTING THE PROJECT FIRST U HAVE TO IMPORT : hand sign model.pkl which is in the master branch that i have uploaded using LFS since it is a large file
+---
+
+This is a non trained model u can train it in your way by using any hand sign languages like American hand sign language, Indian sign language etc..
+For more precise recognition u have to train it by a large data sets.
+STEPS FOR TRAINING THE MODEL :
+1. Exectute capturing.py
+2. This will capture your inputs thorugh your camera by using opencv
+3. click s to capture and r to stop for the each inputs
+4. Then execute training.py .This will train those inputs to the model
+5. Then execute processing.py.This will convert those coordinate points into json files and creates a separate arrangement of hand signs
+6. After completing all these process u can execute recognition.py . This will recognise your hand signs and gives the desired output
 
